@@ -12,6 +12,7 @@ create a database called leadcapture
 php artisan db:seed --class=UsersTableSeeder
 In command line, run php artisan migrate
 run composer install
-type in browser 'localhost/leadcapture/public'
+update SITE_URL and FOOTAGE_UPLOAD constant in .env file
+ type in browser 'localhost/leadcapture/public'
 
 
