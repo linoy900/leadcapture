@@ -18,4 +18,13 @@ run php artisan db:seed --class=UsersTableSeeder in terminal
 
 type in browser 'localhost/leadcapture/public'
 
+##samplecredentials
+Agent: login:linock007@gmail.com
+password:secret
+
+##flow
+Leads can be created bhy guests
+Agent registry is done
+Registered agent can login and view the leads created by guests
+
 
