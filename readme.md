@@ -15,4 +15,3 @@ run composer install
 type in browser 'localhost/leadcapture/public'
 
 
-##run e2e tests

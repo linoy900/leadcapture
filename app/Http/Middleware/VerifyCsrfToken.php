@@ -12,6 +12,6 @@ class VerifyCsrfToken extends BaseVerifier
      * @var array
      */
     protected $except = [
-        //
+        // 'http://localhost/leadcapture/public/create/lead-upload',
     ];
 }

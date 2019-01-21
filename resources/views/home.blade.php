@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Dashbossdard</div>
+                <div class="panel-heading">Dashboard</div>
 
 
                 <div class="panel-body">
@@ -22,11 +22,8 @@
 
             </div>
                  <div class="row">
-                     <a  href="{{url('/create/ticket')}}" class="btn btn-success">Create Ticket</a>
-                    <a href="{{url('/tickets')}}"  class="btn btn-default">All Tickets</a>
-                     @if (Auth::user()->name =='Linoy')
-                     <a href="{{url('/create/user')}}",  class="btn btn-default">New User</a>
-                   @endif
+                     <a  href="{{url('/leads')}}" class="btn btn-success">All Leads</a>
+                   
                    
                    
                       </div>

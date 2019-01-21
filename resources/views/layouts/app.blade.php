@@ -9,7 +9,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Leads') }}</title>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
@@ -44,6 +44,7 @@
                         <!-- Authentication Links -->
                         @if (Auth::guest())
                             <li><a href="{{ route('login') }}">Agent Login</a></li>
+                            <li><a href="{{ url('create/leads') }}">Add your Leads</a></li>
                             <li><a href="{{ route('register') }}">Agent Register</a></li>
                         @else
                             <li class="dropdown">

@@ -82,7 +82,7 @@
                         <a href="{{ url('/home') }}">Home</a>
                     @else
                         <a href="{{ url('/login') }}">Agent Login</a>
-                        <a href="{{ url('/register') }}">Add your Leads</a>
+                        <a href="{{ url('/create/leads') }}">Add your Leads</a>
                         <a href="{{ url('/register') }}">Agent Register</a>
                     @endif
                 </div>
