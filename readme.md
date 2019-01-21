@@ -13,7 +13,7 @@ rename the file .env.example to .env
 update SITE_URL and FOOTAGE_UPLOAD constant in .env file
 update the database credentials in the .env file
 run composer install
-run php artisan:migrate in terminal
+run php artisan migrate in terminal
 run php artisan db:seed --class=UsersTableSeeder in terminal
 run sql leads.sql which is in database/migrations
 
