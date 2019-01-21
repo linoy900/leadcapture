@@ -125,6 +125,7 @@ class LeadsController extends Controller
     {
         $userId= auth()->user()->id;
         $leads = Leads::select('leads_id','first_name','last_name','email','phone')
+                ->orderBy('first_name','asc')
                 ->paginate(7);
         return view('leads.index',compact('leads'));
     }
